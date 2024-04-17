@@ -1,0 +1,58 @@
+.footer {
+  background-color: rgb(163, 163, 163);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  line-height: 0.6;
+}
+
+h2 {
+  color: white;
+  padding-bottom: 1px;
+}
+
+.copyrightContent {
+  border-top: 1px solid;
+  text-align: center;
+}
+
+.copyright {
+  margin-top: 5px;
+  font-size: 13px;
+}
+
+.phone,
+.mail {
+  color: white;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.opening {
+  color: white;
+}
+
+.socials {
+  margin-right: 40px;
+}
+.socials a {
+  margin-right: 10px;
+}
+
+

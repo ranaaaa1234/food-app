@@ -1,0 +1,195 @@
+
+body {
+  font-family: arial;
+}
+
+.inspotitle {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+.inspo {
+  color: rgb(130, 17, 17);
+  font-size: 30px;
+  margin-bottom: 0;
+  margin-top: 20px;
+  text-decoration: overline underline;
+}
+
+/* Style for the list */
+ul {
+    list-style: none; 
+    padding: 0;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+  }
+  
+.containerHomepage {
+    background-color: rgb(234, 234, 234);
+    position: relative;
+  }
+
+  /* Style for the list items */
+  li {
+    margin: 35px; 
+    text-align: center; 
+    cursor: pointer;
+    font-size: 15px;
+  }
+
+  .mealName {
+    margin-top: 0;
+  }
+
+ li img {
+    width: 200px; 
+    height: auto; 
+    border: solid;
+    border-radius: 10px;
+    border-width: 1px;
+  }
+
+  li img:hover,
+  .foodTitle:hover {
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  }
+
+  li img:active,
+  .foodTitle:active {
+    opacity: 0.9;
+  }
+
+  /*style for load more button*/
+
+  .loadMore {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+  }
+
+  .loadMoreBtn {
+    padding: 10px;
+    border: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: rgb(130, 17, 17);
+    border-color: rgb(130, 17, 17);
+    color: white;
+    width: 150px;
+    margin-bottom: 10px;
+  }
+
+  .loadMoreBtn:hover {
+    opacity: 0.9;
+    cursor: pointer;
+  }
+
+  .loadMoreBtn:active {
+    opacity: 0.7;
+  }
+
+
+  /* style for mealPreview */
+.mealPreview {
+  position: fixed;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  background-color: white;
+  padding: 20px;
+  border: 1px solid black;
+  z-index: 1000;
+  width: 60%;
+  height: 80%; 
+  overflow-y: auto;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+.mealPreviewContent {
+  max-width: 100%;
+}
+
+.ingredientsList {
+  padding: 0; 
+  max-width: 100%;
+  display: grid; 
+  grid-template-columns: auto 1fr; 
+  grid-column-gap: 100px;
+}
+
+
+.measure {
+  font-size: 15px; 
+  font-family: arial;
+  line-height: 0.3;
+}
+
+.mealDescription {
+  max-width: 100%;
+  line-height: 1.4;
+  font-size: 15px;
+}
+
+.instructionContent {
+  border-top: 1px solid;
+}
+
+h5 {
+  font-size: 15px;
+  line-height: 0;
+  margin-bottom: 10px;
+}
+
+h6 {
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.closeBtn {
+  border: none;
+  background-color: white;
+}
+
+.closeBtn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.closeBtn:active {
+  opacity: 0.4;
+}
+
+.exit {
+    display: flex; 
+    align-items: right; 
+    justify-content: right;
+}
+
+ /* search result title */
+
+ .searchResultTitle,
+ .title {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(130, 17, 17);
+  text-decoration: overline underline;
+  margin-bottom: 0;
+  margin-top: 17px;
+ }
+
+ .error {
+  display: flex;
+  color: red;
+  text-align: center;
+  width: 400px;
+  margin-left: 390px;
+  padding-left: 10px;
+  padding-right: 10px;
+ }
+
+ .errorMsg {
+  padding-left: 5px;
+ }

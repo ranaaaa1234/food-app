@@ -1,0 +1,44 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 1px;
+    margin-bottom: 0;
+  }
+  
+  form {
+    display: flex; 
+    align-items: center; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .inputField {
+    padding: 10px;
+    border: none;
+  }
+  
+  .searchBtn {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+  }
+
+  .searchBtn:hover {
+    opacity: 0.8;
+  }
+
+  .searchBtn:active {
+    opacity: 0.6;
+  }
+  
+  .searchcomp {
+    border: solid;
+    border-width: 1px;
+    display: flex;
+  }
